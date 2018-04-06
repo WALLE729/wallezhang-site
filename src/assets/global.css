@@ -2,7 +2,6 @@
 body{
     margin:0px;
 }
-
 *{
     box-sizing:border-box;
 }
@@ -11,6 +10,6 @@ body{
     height:70px;
     text-align: center;
     line-height: 70px;
-    background:blue;
+    background: #090723;
     color:#fff;
 }

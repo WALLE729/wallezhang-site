@@ -1,0 +1,13 @@
+.home_banner_box{
+    height:400px;
+}
+.home_banner_box .ant-carousel .slick-slide {
+    text-align: center;
+    height: 400px;
+    line-height: 400px;
+    background: #364d79;
+    overflow: hidden;
+  }
+.home_banner_box .ant-carousel .slick-slide h3 {
+color: #fff;
+}
