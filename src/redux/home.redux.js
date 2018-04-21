@@ -5,10 +5,10 @@ const homeInitState = {
 }
 
 //reducer
-export function HomeRedux(state = { homeInitState }, action) {
+export function HomeRedux(state = homeInitState, action) {
   switch (action.type) {
     case HOME_TEST:
-      return { ...state }
+      return { ...state, data: 'walle123' }
     default:
       return { ...state }
   }
@@ -20,9 +20,10 @@ export function homeStateTest() {
 }
 
 export function homeStateAsync() {
+  alert(1)
   return dispatch => {
     setTimeout(() => {
-      dispatch(homeStateTest)
+      dispatch(homeStateTest())
     }, 2000)
   }
 }
